@@ -2,7 +2,7 @@
     <div class="flex justify-between shadow px-24 items-center">
         <div class="flex relative">
             <button type="button" name="button" class="absolute left-0 top-[30%] shadow-white shadow-xl bg-white flex justify-center items-center">
-                <div class="hover:shadow-lg rounded-full shadow-white shadow bg-white border mr-4 flex justify-center h-8 w-8 items-center">
+                <div class="hover:shadow-lg rounded-full shadow-white shadow bg-white border mr-4 flex justify-center h-6 w-6 items-center">
                     <span class="material-icons">chevron_left</span>
                 </div>
             </button>
@@ -17,7 +17,7 @@
                 </button>
             </div>
             <button type="button" name="button" class="absolute right-[-20px]  top-[30%]  flex justify-center items-center">
-                <div class="hover:shadow-lg rounded-full border mr-4 flex justify-center shadow-white shadow-xl bg-white h-8 w-8 items-center">
+                <div class="hover:shadow-lg rounded-full border mr-4 flex justify-center shadow-white shadow-xl bg-white h-6 w-6 items-center">
                     <span class="material-icons">chevron_right</span>
                 </div>
             </button>
