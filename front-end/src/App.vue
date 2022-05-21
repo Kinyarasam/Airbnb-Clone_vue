@@ -5,15 +5,22 @@ import HelloWorld from './components/HelloWorld.vue'
 import TopNav from './components/TaskBar.vue'
 import NavBar from './components/NavBar.vue'
 import Menu from './components/Menu.vue'
+import Foot from './components/Footer.vue'
 </script>
 
 <template>
-  <div class="max-h-screen overflow-hidden">
-    <TopNav />
-    <NavBar/>
-    <Menu />
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Hello Vue 3 + Vite" />
+  <div class="min-h-screen overflow flex flex-col justify-between">
+    <div>
+      <TopNav />
+      <NavBar/>
+      <Menu />
+      <div class="overflow-hidden">
+        
+      </div>
+    </div>
+    <div>
+      <Foot />
+    </div>
   </div>
 </template>
 
