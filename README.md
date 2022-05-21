@@ -14,6 +14,6 @@ cd front-end
 ~~~
 
 For the front-end I'll be using `Vue 3`.
-For more infomation regarding vue you can check their official documentation. ` [link](https://vuejs.org/guide/introduction.html) `
+For more infomation regarding vue you can check their official documentation. [link](https://vuejs.org/guide/introduction.html)
 
 #### Let's [Get Started](./front-end)
