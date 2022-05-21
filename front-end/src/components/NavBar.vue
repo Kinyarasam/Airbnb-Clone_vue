@@ -4,9 +4,9 @@
             <img src="airbnb.png" alt="" class="h-8">
         </div>
         <div class="h-6 pl-6 pr-2 py-6 flex justify-center items-center cursor-pointer border rounded-full shadow-md hover:shadow">
-            <button class="border-r pr-3">Anywhere</button>
-            <button class="border-r px-3">Any week</button>
-            <button class="px-3 text-gray-400">Add guests</button>
+            <button class="border-r pr-3 text-black text-[13px] font-medium">Anywhere</button>
+            <button class="border-r px-3 text-black text-[13px] font-medium">Any week</button>
+            <button class="px-3 text-gray-400 text-[13px]">Add guests</button>
             <button class="bg-rose-500 rounded-full h-8 w-8 flex justify-center items-center">
                 <span class="material-icons text-white text-[17px] font-bold">search</span></button>
         </div>

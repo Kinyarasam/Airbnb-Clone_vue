@@ -13,13 +13,13 @@
         </div>
         <div class="flex justify-center items-center font-semibold">
             <div>
-                <span class="material-icons">language</span>
+                <span class="material-icons cursor-pointer">language</span>
             </div>
-                <span class="mx-2 pr-1">English(US)</span>
-            <span class="font-semibold ml-2">$</span>
-            <span class="mx-2 pr-1 text-[15px]">USD</span>
-            <span class="mx-2">Support & resources</span>
-            <div class="flex justify-center items-center">
+                <span class="mx-2 pr-1 hover:underline cursor-pointer">English(US)</span>
+            <span class="font-semibold ml-2 cursor-pointer">$</span>
+            <span class="mx-2 pr-1 text-[15px] cursor-pointer hover:underline">USD</span>
+            <span class="mx-2 hover:underline cursor-pointer">Support & resources</span>
+            <div class="flex justify-center items-center cursor-pointer">
                 <span class="material-icons">expand_less</span>
             </div>
         </div>
