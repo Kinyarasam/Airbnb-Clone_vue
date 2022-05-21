@@ -3,11 +3,15 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
 import TopNav from './components/TaskBar.vue'
+import NavBar from './components/NavBar.vue'
+import Menu from './components/Menu.vue'
 </script>
 
 <template>
   <div class="max-h-screen overflow-hidden">
     <TopNav />
+    <NavBar/>
+    <Menu />
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Hello Vue 3 + Vite" />
   </div>
@@ -15,6 +19,6 @@ import TopNav from './components/TaskBar.vue'
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 </style>
